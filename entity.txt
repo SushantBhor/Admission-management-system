@@ -1,1 +1,10 @@
-entity names
+Entity names
+
+
+1.Student
+2.Course
+3.Result
+4.Document
+5.Payment
+6.Admin
+7.Dashboard
