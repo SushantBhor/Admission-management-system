@@ -1,0 +1,26 @@
+CAM Sprint 1
+
+1.student registration
+2.student login
+3.CCAT form
+4.Payment gateway
+5.Admit card
+6.Show Result
+
+Backlog
+7.Preferences list
+8.Admission form 
+9.show seat allocation
+10.Create student table
+11.create course table
+12.create document table
+13.create Payment table
+15.Welcome page
+16.Dashboard
+17.Create profile page
+18.student class
+19.course class
+20.result class
+21.Document class
+22.Payment class
+
