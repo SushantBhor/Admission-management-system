@@ -1,0 +1,50 @@
+SRS DOCUMENTATION:
+
+TITLE : Admission Management System for CDAC Course
+
+
+
+
+Bussiness Operations to be automated by Online student admission application
+Deliver emails
+Make payments
+check Payment Status
+Approve Applications
+List centres
+add exam centre preference while filling ccat form
+show studentdetails
+Download Admit Cards
+raise complaint
+Withdraw application
+update student personal information
+update/edit Application Form details
+validate user
+change password
+forgot passwrod
+get user details
+Login
+Logout
+Notify
+protect/secure information
+
+CRUD Operations:
+C:Create Student
+R:Read Student
+U:Update Student
+D:Delete Student
+
+DML Operations:
+To add a new course
+Update the fees for a particular course
+TCL Operations: 
+(control) (Applications) (automated Automated Application process)
+Implement load balancing to ensure that the system can handle a large number of users during peak hours
+regular data backups and recovery
+security measures such as firewalls, anti-virus software, and encryption to protect student data from malicious attacks.
+
+
+
+Query Operations:
+Get list of available courses:
+Get admission booklet download link:
+Get list of candidates who have cleared CCAT:
