@@ -1,0 +1,90 @@
+Document: System Requirement Specification Document
+
+Title: Admission Management System for CDAC Course
+
+Team: Education Management System, Administrator, Student, Document Verifier, Advisor
+ 
+
+Objective (purpose) :
+C-DAC's Education and Training programmes are aimed at creating skilled manpower in the country by providing quality training programmes in the field of Electronics and IT. The admission management system is a web-based application that provides facilities to students and internal staff. It will provide a convenient and user-friendly admission  process for applicants. It helps to regulate the application verification process for administrators. Thereby reducing manual workload and processing.
+
+Scope:
+	This system allows students to be admitted to CDAC based on their rank. The system will provide features for applicants to apply for courses, pay fees, and upload necessary documents for their admission, and their admission status.
+
+Definition:
+SSL:- Secure Socket layer
+CCAT:- Computerised common admission test
+CDAC:- Center for Development of Advanced Computing.
+PDA:- Portable Device Application
+HTML:- Hypertext Markup Language
+CSS:- Cascading Style Sheet
+
+Requirements:
+Functional Requirements:
+	Any anonymous user will be able to visit the website and view available courses on the official website of C-DAC. Users can see the procedure to take admission to C-DAC courses and can download the admission booklet. 
+	Those who want to be admitted to C-DAC must fill out the registration form for the entrance exam of CCAT and eligible candidates will get the admit cards.
+After the exam, They can check their results and based on their rank they will be eligible for the seat counselling process. 
+The C-DAC admission process has two counselling sessions and three rounds of seat allocations. First counselling has 2 rounds, in the first round candidates can be allowed to give preferences for various centres and choose courses. And will be allocated seats based on the first counselling.
+Those who were allocated seats in the first round may get higher preferences in the second round. Also, those who have not been allocated any seats in the first round may get allocated seats in the second round. 
+The second counselling is scheduled after the payment of the first instalment of the second round of seat allocation. 
+Those who are not allocated any seat in the first counselling have to fill in preferences again. They may get allocated seats in the second counselling. 
+ After the second counselling candidate must have to pay a second instalment for seat confirmation. Candidates can get auto-generated fee receipts by email.
+Before starting the course candidates has to upload and verify the documents on their respective profile.
+At any time during the admission process or after starting the course within the first-month candidate has the option to withdraw with 50% fee deductions as a penalty. 
+The dashboard will provide information like candidate rank, payment status, document upload status, centre preference list and loan letter.
+The administrator dashboard will provide information like candidate details, fee details, and uploaded documents by candidates. 
+
+
+NonFunctionalRequirements:
+
+Security :
+The registered student will be allowed to select their allocated seats.	
+Each student will be able to access the admission process through the authorized CDAC Admission Process Portal. 
+CDAC will provide access to the login portal using which was created at the time of the CCAT entrance examination.
+Using SSL in all transactions which will be performed by stakeholders. 
+It would protect confidential information shared by students to CDAC.
+The Portal will automatically get deleted after a few months as the admission process will be completed and data is not required further.
+Cdac always maintains secure communication with students through emails provided by students on their profiles. Sensitive data will be always encrypted across the communication.
+Use a proper firewall to protect servers from outside fishing, and vulnerable attacks.
+
+Reliability :
+The system will back up student data regularly and recover in a short time duration to keep the admission system operational, continuous updates are maintained through email and continuous administration is done to keep contact with students.
+During peak hours system will maintain the same user experience by managing load balancing.
+
+Availability :
+	Uptime:   24* 7  available
+		 99.999%
+
+Maintainability:
+	A CDAC database software will be used to maintain System Data Persistence. A readymade Web Server will be installed to host the online CDAC admission portal (Web Site) to manage server capabilities.IT operations team will easily monitor and configure the System using Administrative tools provided by Servers. A separate environment will be maintained for a system for isolation in  production, testing, and development
+
+Portability:
+ The system will provide a portable User Interface ( HTML, CSS, ReactJS) through which users will be able to access the online Cdac Admission portal.
+ The system can be deployed to a single server, multi-server, to any OS, Cloud (Azure or AWS or GCP).
+
+Accessibility:
+Only registered students will be able to log in after authentication.
+
+Durability:
+The system will maintain student details.
+The system will implement backup and recovery for retaining student data, and their fee details over time.
+
+
+Efficiency:
+On CCAT round result date, the maximum number of students will access their login page and must see their results with the same response time.
+The system will be able to manage all transactions in isolation.
+
+Modularity:
+The system will be designed and developed using reusable, independent or dependent business scenarios in the form of modules.
+
+These modules will be loosely coupled and highly cohesive.
+The system will contain CRM, Inventory, shopping cart, order processing, payment processing, Delivery module, membership and Roles management modules.
+	
+Scalability:
+The system will be able to provide a consistent user experience to students as well as visitors irrespective of load.
+
+Safety:
+The student login page will be secure from malicious attacks, and fishing.
+CDAC education Processes are protected from the outside with proper firewall configuration.
+CDAC education processes be always kept updated with the latest anti-virus software.
+Student data will be backed up periodically to ensure the safety of data using an incremental backup strategy.
