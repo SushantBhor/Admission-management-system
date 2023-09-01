@@ -5,9 +5,9 @@ Guided By Ravi Tambade Sir
 
 Group Member's 
 
-1.Anshuja Meshram
+1.Sushant Bhor
 2.Anupam Zope
 3.Prashant Vikhe
 4.Pratiksha Patil
 5.Pravin Nirmal
-6.Sushant Bhor
+6.Anshuja Meshram
